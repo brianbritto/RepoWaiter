@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ChooseTableActivity">
+
+    <item android:id="@+id/item_menu_profile"
+        android:title="@string/main_menu_showProfile"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_profile"
+        app:showAsAction="collapseActionView" />
+
+    <item android:id="@+id/item_menu_report"
+        android:title="@string/main_menu_showReport"
+        android:icon="@drawable/ic_action_stadistic"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView" />
+
+    <item android:id="@+id/item_menu_signout"
+        android:title="@string/main_menu_signOut"
+        android:icon="@drawable/ic_action_signout"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView" />
+
+</menu>

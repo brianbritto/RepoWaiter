@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edt_userName" type="id">edt_userName</item>
+    <item name="edt_password" type="id">edt_password</item>
+    <item name="btn_signIn" type="id">btn_signIn</item>
+    <item name="rcy_orders" type="id">rcy_orders</item>
+    <item name="fab_addOrder" type="id">fab_addOrder</item>
+    <item name="rcy_tables" type="id">rcy_tables</item>
+    <item name="txt_nameOD" type="id">txt_nameOD</item>
+    <item name="txt_amountOD" type="id">txt_amountOD</item>
+    <item name="txt_subTotalOD" type="id">txt_subtotalOD</item>
+    <item name="appbar_LO" type="id">appbar_LO</item>
+    <item name="toolbar_LO" type="id">toolbar_LO</item>
+    <item name="toolbar_CT" type="id">toolbar_CT</item>
+    <item name="toolbar_LM" type="id">toolbar_LM</item>
+    <item name="viewpager_LM" type="id">viewpager_LM</item>
+    <item name="tabs_LM" type="id">tabs_LM</item>
+    <item name="appbar_LM" type="id">appbar_LM</item>
+    <item name="txt_nameLM" type="id">txt_nameLM</item>
+    <item name="txt_priceLM" type="id">txt_priceLM</item>
+    <item name="txt_amountLM" type="id">txt_amountLM</item>
+    <item name="rcy_menus" type="id">rcy_menus</item>
+    <item name="imv_removeLM" type="id">imv_removeLM</item>
+    <item name="imv_addLM" type="id">imv_addLM</item>
+    <item name="toolbar_MD" type="id">toolbar_MD</item>
+    <item name="app_bar_layout" type="id">app_bar_layout</item>
+    <item name="collapsing_toolbar" type="id">collapsing_toolbar</item>
+    <item name="image_MD" type="id">image_MD</item>
+    <item name="appCompatImageView" type="id">appCompatImageView</item>
+    <item name="profile_image" type="id">profile_image</item>
+    <item name="toolbar_profile" type="id">toolbar_profile</item>
+    <item name="txt_email" type="id">txt_email</item>
+    <item name="appCompatTextView" type="id">appCompatTextView</item>
+    <item name="toolbar_report" type="id">toolbar_report</item>
+    <item name="chart" type="id">chart</item>
+
+</resources>

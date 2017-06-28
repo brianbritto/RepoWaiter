@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/txt_nameOD"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:hint="Ceviche de pescado"
+            android:textSize="@dimen/item_menu"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_gravity="center"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/txt_amountOD"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:hint="5"
+            android:gravity="center"
+            android:textSize="@dimen/item_menu"
+            android:layout_gravity="center"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/txt_subTotalOD"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:hint="22.00"
+            android:gravity="center"
+            android:textSize="@dimen/item_menu"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivider"/>
+
+</LinearLayout>
